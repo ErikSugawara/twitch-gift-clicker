@@ -7,7 +7,7 @@
   "description": "A simple script that clicks a gift twitch button every 60 seconds",
   "permissions": ["activeTab", "tabs", "https://www.twitch.tv/*"],
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/gift-48.png"
   },
 
   "content_scripts": [
