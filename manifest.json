@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Twitch Gift Clicker",
+  "version": "1.0",
+
+  "description": "A simple script that clicks a gift twitch button every 60 seconds",
+  "permissions": ["activeTab", "tabs", "https://www.twitch.tv/*"],
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*"],
+      "js": ["twitch_gift_clicker.js"]
+    }
+  ]
+
+}
