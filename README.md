@@ -1,4 +1,4 @@
-# twitch-gift-clicker
+Twitch Gift Clicker
 A simple script that clicks a channel point button every 60 seconds.
 
 You can use that in your browser acessing:
